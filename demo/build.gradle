@@ -1,4 +1,19 @@
-//add everything here
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+repositories {
+    mavenCentral()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':utils')
+}
 
 test {
     useJUnitPlatform()
